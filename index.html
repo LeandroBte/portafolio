@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Leandro Benitez Developer Web.png"
+      type="image/x-icon"
+    />
+
+    <title>Leandro Benitez Portfolio</title>
+  </head>
+  <body class="principal">
+    <header class="encabezado__principal">
+      <a href="index.html" class="logo">
+        <img
+          src="./assets/images/logo-preview.png"
+          alt="logo"
+          width="300"
+          height="300"
+        />
+      </a>
+      <p class="presentacion">
+        Bienvenido a mi portafolio. Aquí encontrarás información sobre mí y mis
+        proyectos.<br />¡No dudes en contactarme!
+      </p>
+
+      <!-- <nav> -->
+      <nav class="navbar">
+        <a href="#home" data-text="Inicio">Inicio</a>
+        <a href="#projects" data-text="Proyectos">Proyectos</a>
+        <a href="#contact" data-text="Contacto">Contacto</a>
+        <a href="#about" data-text="Sobre mí">Sobre mí</a>
+      </nav>
+      <!-- </nav> -->
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="home__content">
+          <h1 class="home__title">Hola, soy <span>Leandro Benitez</span></h1>
+          <p class="home__description">
+            Desarrollo Webs, me gusta explorar diferentes tecnologías, al mismo
+            tiempo que intento crear experiencias digitales únicas.<br />Aquí
+            enontrarás tanto mis proyectos personales, como así también, algunas
+            experiencias que tengo en el manejo de diferentes tecnologías como
+            por ejemplo HTML, CSS, JavaScirpts, Python, y otras que estoy
+            aprendiendo en mi camino como programador autodidacta.
+          </p>
+          <div class="redes">
+            <a href=""><i class="bx bxl-linkedin"></i></a>
+            <a href=""><i class="bx bxl-github"></i></a>
+          </div>
+          <a
+            href="./assets/resource/my-porfolio.pdf"
+            class="btn"
+            download
+            target="_blank"
+            >Descargar CV</a
+          >
+          <a href="https://wa.me/+54157840" target="_blank" class="btn-ws">
+            <i class="bx bxl-whatsapp"></i>
+            <p>Contactáme</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__content">
+          <div class="about__me">
+            <h2 class="about__title heading">Sobre <span>Mí</span></h2>
+            <p class="about__description heading__description">
+              Soy un desarrollador web enfocado en la parte
+              <strong><span>FrontEnd</span></strong> autodidacta, en camino a
+              convertirme en desarrollador fullstack, por ahora tengo
+              experiencia en HTML, CSS y JavaScript. Me gusta crear sitios web
+              atractivos que sean funcionales. Siempre estoy buscando aprender
+              nuevas tecnologías o maneras de mejorar mis habilidades.
+            </p>
+          </div>
+          <div class="skills">
+            <h2 class="skills__title">Habilidades</h2>
+            <div class="content__skills">
+              <div class="item__skills">
+                <span>HTML</span>
+                <i class="bx bxl-html5"></i>
+              </div>
+              <div class="item__skills">
+                <span>CSS</span>
+                <i class="bx bxl-css3"></i>
+              </div>
+              <div class="item__skills">
+                <span>JavaScript</span>
+                <i class="bx bxl-javascript"></i>
+              </div>
+              <div class="item__skills">
+                <span>Python</span>
+                <i class="bx bxl-python"></i>
+              </div>
+              <div class="item__skills">
+                <span>Django</span>
+                <i class="bx bxl-django"></i>
+              </div>
+                <div class="item__skills">
+                    <span>GitHub</span>
+                    <i class="bx bxl-git"></i>
+                </div>
+                <div class="item__skills">
+                    <span>MySQL</span>
+                    <i class='bx bxs-data'></i>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__image">
+          <img
+            src="./assets/images/logo.png"
+            alt="Leandro Benitez"
+          />
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
