@@ -362,3 +362,67 @@ header .logo{
 .btn_now:hover{
     border-bottom-color: var(--azul-claro);
 }
+
+/* Portfolio */
+
+.portfolio{
+    background-color: var(--bg-color);
+}
+
+.portfolio__content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+.portfolio__item{
+    width: calc(90% / 3);
+    background-color: var(--bg-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 .5rem var(--second-bg-color);
+}
+
+.portfolio__item img{
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.portfolio__header h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+} 
+
+.portfolio__header a{
+    display: inline-flex;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    padding: .5rem;
+    background-color: var(--azul-claro);
+    color: var(--azul-proundo);
+}
+
+.portfolio__item a:hover{
+    cursor: pointer;
+    color: var(--second-bg-color);
+    background-color: var(--bg-color);
+    box-shadow: 0 0 .5rem var(--second-bg-color);
+}
+
+.portfolio__item p {
+    margin-bottom: 2rem;
+}
