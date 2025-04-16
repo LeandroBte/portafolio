@@ -433,12 +433,15 @@ header .logo{
 .contact{
     background-color: var(--bg-linkedin);
     text-align: center;
+    align-items:center;
+    justify-content: center;
 }
 
 .contact__content {
     display: flex;
-    gap: 6rem;
+    gap: 5rem;
     padding: 3rem 0;
+    margin-bottom: 8rem;
 }
 
 .img__contact{
@@ -496,5 +499,21 @@ form input:focus,
 form textarea:focus{
     outline: none;
     box-shadow: 0 0.2rem 0.2rem -0.1rem var(--azul-proundo);
+}
 
+.footer{
+    background-color: var(--bg-color);
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .2rem solid var(--azul-proundo);
+}
+
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer p{
+    margin-top: 2rem;
 }
