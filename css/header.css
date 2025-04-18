@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        padding: 1.2rem 2%;
+    }
+
+    header .presentacion{
+        display: none;
+    }
+
+    header .logo{
+        width: 250px;
+        height: 250px;
+    }
+
+    header img{
+        width: 250px;
+        height: 250px;
+    }
+}
+

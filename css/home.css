@@ -1,0 +1,45 @@
+@media (width < 1200px){
+    .home {
+        justify-content: center;
+    } 
+
+    .home__content {
+        margin: auto;
+        text-align: center;
+        padding: 2rem;
+    }
+    .home__content h1{
+        font-size: 3rem;
+    }
+    
+    .home__content p{
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (width < 576px) {
+    .home {
+        justify-content: center;
+    }
+    .home__content{
+        width: 90%;
+        padding: 1.5rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .home__content h1{
+        font-size: 2rem;
+    }
+    .home__content p{
+        font-size: 1.4rem;
+    }
+
+    .home__content > a{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

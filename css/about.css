@@ -1,0 +1,36 @@
+@media (width <= 768px) {
+    .about{
+        flex-direction: column;
+        padding: 5rem 5% 2rem;
+    }
+
+    .about .heading{
+        text-align: center;
+    }
+    .about .about__content{
+        order: 2;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .about__image{
+        text-align: center;
+    }
+    .about img{
+        order: 1;
+    }
+}
+
+@media (width <= 576px) {
+    .about{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about .about__image{
+        display: none;
+    }
+}
